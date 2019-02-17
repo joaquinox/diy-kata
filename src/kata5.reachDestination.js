@@ -4,7 +4,7 @@ const reachDestination = (distance, speed) => {
         }
     const time = distance / speed;
     const ETA = roundHalf(time);
-    return 'I should be there in ' + ETA + ' hours';
+    return `I should be there in ${ETA} hours`;
 }
 
 module.exports = reachDestination;
